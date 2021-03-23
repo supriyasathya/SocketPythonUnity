@@ -7,3 +7,8 @@ In order to run this script from command line, type: python ServerPython.py
 The C# script runs a client on Unity and connects to the server and received the float array sent by the server and
 rotates te gameobject to which it is attached by the amount specified in the float array received.
 This script can also been tested by deploying an app on Magicleap with this script attached to a gameobject.
+
+Dependencies:
+The code was tested on:
+Python 3.7.10
+numpy==1.19.5
